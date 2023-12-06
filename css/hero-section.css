@@ -1,6 +1,6 @@
 .hero-section {
     background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../assets/herr-bg.jpg);
-    height: 70rem;
+    height: 100vh;
     background-position: center;
     background-size: cover;
 }
