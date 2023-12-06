@@ -1,0 +1,12 @@
+.mobile-section{
+    background-color: black;
+    height: 65rem;
+}
+
+.mobile-section .container .mobile-textarea h1,.mobile-section .container .mobile-textarea h3{
+    text-align: left ;
+}
+
+.mobile-img img{
+    width: 65rem;
+}

@@ -1,0 +1,12 @@
+.kids-area{
+    background-color: black;
+    height: 65rem;
+}
+
+.kids-area .container .kids-area-text h1,.kids-area .container .kids-area-text h3{
+    text-align: left;
+}
+
+.kids-area-img img{
+    width: 65rem;
+}

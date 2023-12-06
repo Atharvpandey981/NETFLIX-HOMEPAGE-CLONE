@@ -1,0 +1,20 @@
+.tv2-section{
+    background-color:black;
+    height:65rem;
+}
+
+.tv2-section .container .tv2-textarea h1,.tv2-section .container .tv2-textarea h3{
+    text-align:left ;
+}
+
+.tv2-section .container .tv2-video img{
+    z-index:9999;
+    position:relative;
+    width: 65rem;
+    top:9rem
+
+}
+.tv2-section .container .tv2-video video{
+position: absolute;
+width:40rem;
+}

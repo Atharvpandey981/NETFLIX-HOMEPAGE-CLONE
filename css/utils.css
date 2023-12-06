@@ -1,0 +1,96 @@
+/* ----------------reset------------------------ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+/* -------------------variables------------------- */
+
+:root{
+    --primary-color:rgb(229,9,20);
+}
+
+/* ---------------utility----------------- */
+ 
+body{
+    font-family: sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: .2rem;
+    /* text-align: center; */
+}
+
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 2rem;
+    /* text-align: center; */
+    letter-spacing: .2rem;
+}
+
+h4{
+    font-size: 1rem;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgba(255,255,255,0.7);
+}
+
+li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+
+hr{
+    background-color: rgb(35,35,35);
+    height:1rem;
+    outline:none;
+    border:none;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+max-width: 120rem;
+margin: 0 auto;
+padding: 2.5rem 0;
+overflow: hidden;
+}

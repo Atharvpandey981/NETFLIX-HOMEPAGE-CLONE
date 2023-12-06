@@ -1,0 +1,66 @@
+.FAQs-section {
+    background-color: black;
+    height: 80rem;
+}
+
+.FAQs-section .container h2 {
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+
+.FAQs-section .container .FAQs-content {
+    width: 50rem;
+    height: 5rem;
+    background-color: rgb(47, 46, 46);
+    margin: 2rem 0;
+    font-size: 2rem;
+    justify-content: space-between !important;
+    padding: .4rem;
+}
+
+.FAQs-section .container h3{
+    font-weight: 100;
+    margin: 4rem 0 2rem 0;
+    color: rgba(255, 255, 255, 0.889);
+}
+
+.FAQs-section .container  .FAQs-content:hover{
+    background-color:rgba(47, 46, 46, 0.635) ;
+    cursor: pointer;
+}
+
+.FAQs-section .container form input {
+    width: 35rem;
+    height: 5rem;
+    outline: none;
+    color: rgb(63, 61, 61);
+    font-size: 2rem;
+    border: none;
+    padding: 2rem;
+    background-color: white;
+}
+
+.FAQs-section .container form input:hover {
+    border: 2px solid rgb(74, 73, 73);
+    cursor: pointer;
+}
+
+.FAQs-section .container form input::placeholder {
+    color: rgb(63, 61, 61) !important;
+    opacity: .9 !important;
+}
+
+.FAQs-section .container form button {
+    outline: none;
+    border: none;
+    width: 15rem;
+    height: 5rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+.FAQs-section .container form button:hover {
+    background-color: rgba(229, 9, 20, 0.843);
+}

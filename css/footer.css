@@ -1,0 +1,35 @@
+.footer-section{
+    background-color: black;
+    height: 35rem;
+}
+
+.footer-section .container .footer-main span{
+    color:rgb(148, 146, 146);
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    width: 100%;
+    float: left;
+    font-weight: 100;
+}
+
+.footer-main{
+    max-width: 100rem;
+}
+
+.inner-footer-content{
+    margin: 1rem 2rem 1rem 0rem;
+}
+
+.footer-lang{
+    width: 100%;
+}
+
+.footer-lang select{
+    font-size: 1.5rem;
+    margin: 2rem 2rem 2rem 0;
+}
+
+li:hover{
+    color: rgba(255, 255, 255, 0.762);
+    cursor: pointer;
+}

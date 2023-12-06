@@ -1,0 +1,63 @@
+@media screen and (width > 2000px){
+    html{
+        font-size: 100% !important;
+    }
+}
+
+@media screen and (width > 1600px) and (width < 2000px) {
+    html{
+        font-size: 80% !important;
+    }
+}
+
+@media screen and (width < 1250px) {
+    html{
+        font-size: 50% !important;
+    }
+}
+
+@media screen and (width < 1040px) {
+    html{
+        font-size: 35% !important;
+    }
+}
+
+ @media screen and (width < 700px) {
+    .tv-section .container{
+        flex-direction: column;
+    }
+    .mobile-section .container{
+        flex-direction: column;
+    }
+    .tv2-section .container{
+        flex-direction: column;
+    }
+    .kids-area .container{
+        flex-direction: column;
+    }
+    .kids-area , .tv2-section , .tv-section , .mobile-section{
+        height: 80rem;
+    }
+
+    h1 ,h3{
+        text-align: center !important;
+    }
+    .FAQs-section{
+        height: 90rem;
+    }
+} 
+
+@media screen and (width < 600px){
+html{
+    font-size: 30%;
+}
+}
+@media screen and (width <500px){
+    }
+
+@media  screen and (width < 350px) {
+}
+
+@media screen  and (width < 600px) and (width>447px){
+  
+}
