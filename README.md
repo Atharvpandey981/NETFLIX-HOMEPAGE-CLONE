@@ -1,5 +1,4 @@
 # NETFLIX-HOMEPAGE-CLONE
-* Link: https://atharvpandey981.github.io/NETFLIX-HOMEPAGE-CLONE/
 ## `ABOUT`
 * This is a frontend project.
 * This project is the clone of NETFLIX landing page.
